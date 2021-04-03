@@ -5,7 +5,7 @@ const game=(n,strings)=>{
         ones=0
         for (let letter of string){
             letter==='0'?zeroes+=1:ones+=1}
-            min = Math.min(zeroes, ones)
+            min=Math.min(zeroes, ones)
             console.log(min%2==0?'NET':'DE')
     }
 }
